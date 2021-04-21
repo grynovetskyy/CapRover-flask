@@ -1,7 +1,6 @@
 {
 	"schemaVersion" :2 ,
 	"dockerfileLines" :[
-	    "RUN ls -a",
 		"FROM python:3.8.5-alpine",
 		"RUN ls -a",
 		"COPY ./ /app",
